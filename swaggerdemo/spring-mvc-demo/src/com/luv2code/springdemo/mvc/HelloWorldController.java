@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 
 @Controller
+@Api(value="onlinestore")
 public class HelloWorldController {
 
     //need a controller method to show initial html form
